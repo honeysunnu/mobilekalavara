@@ -843,6 +843,13 @@ button {
   
   /* Optional: For better mobile responsiveness */
   @media (max-width: 768px) {
+    .logo {
+    position: absolute;
+    top: 0px;  /* Adjust this value as per your preference to move the logo up */
+    left: unset;     /* Keep the logo aligned to the left */
+     right:0;
+    z-index: 10; /* Ensure the logo is above other content */
+  }
     .logo-img {
       width: 150px;  /* Resize logo for smaller screens */
       height: 150px;
