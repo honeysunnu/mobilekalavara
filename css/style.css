@@ -849,10 +849,11 @@ button {
     left: unset;     /* Keep the logo aligned to the left */
      right:0;
     z-index: 10; /* Ensure the logo is above other content */
+     text-align:end;
   }
     .logo-img {
-      width: 150px;  /* Resize logo for smaller screens */
-      height: 150px;
+      width: 50px;  /* Resize logo for smaller screens */
+      height: 50px;
     }
   }
   #more-text {
