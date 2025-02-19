@@ -1,0 +1,885 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@font-face {
+font-family: "Righteous";
+src: url("../fonts/BalooChettan-Regular.ttf");
+src: url("../fonts/BalooChettan-Regular.ttf");
+}
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(css/font-awesome.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+* {
+     box-sizing: border-box !important;
+     transition: ease all 0.5s;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     color: #666666;
+     font-size: 14px;
+     font-family:Poppins;
+     line-height: 1.80857;
+     font-weight: normal;
+     overflow-x: hidden;
+}
+
+a {
+     color: #1f1f1f;
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
+     padding: 0 0 10px 0;
+     font-weight: normal;
+     line-height: normal;
+     color: #111111;
+     margin: 0
+}
+
+h1 {
+     font-size: 24px
+}
+
+h2 {
+     font-size: 22px
+}
+
+h3 {
+     font-size: 18px
+}
+
+h4 {
+     font-size: 16px
+}
+
+h5 {
+     font-size: 14px
+}
+
+h6 {
+     font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+     color: #212121;
+     text-decoration: none!important;
+     opacity: 1
+}
+
+button:focus {
+     outline: none;
+}
+
+ul,
+li,
+ol {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+
+p {
+     margin: 20px;
+     font-weight: 300;
+     font-size: 15px;
+     line-height: 24px;
+}
+
+a {
+     color: #222222;
+     text-decoration: none;
+     outline: none !important;
+}
+
+a,
+.btn {
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+img {
+     max-width: 100%;
+     height: auto;
+}
+
+ :focus {
+     outline: 0;
+}
+
+.paddind_bottom_0 {
+     padding-bottom: 0 !important;
+}
+
+.btn-custom {
+     margin-top: 20px;
+     background-color: transparent !important;
+     border: 2px solid #ddd;
+     padding: 12px 40px;
+     font-size: 16px;
+}
+
+.lead {
+     font-size: 18px;
+     line-height: 30px;
+     color: #767676;
+     margin: 0;
+     padding: 0;
+}
+
+.form-control:focus {
+     border-color: #ffffff !important;
+     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+}
+
+.navbar-form input {
+     border: none !important;
+}
+
+.badge {
+     font-weight: 500;
+}
+
+blockquote {
+     margin: 20px 0 20px;
+     padding: 30px;
+}
+
+button {
+     border: 0;
+     margin: 0;
+     padding: 0;
+     cursor: pointer;
+}
+
+.full {
+     float: left;
+     width: 100%;
+}
+
+.layout_padding {
+     padding-top: 90px;
+     padding-bottom: 0px;
+}
+
+.padding_0{
+     padding: 0px;
+}
+
+
+/* header top section start */
+
+.header_top_section{
+    width: 100%;
+    float: left;
+    background-color: #000;
+    height: auto;
+    padding: 15px 0px;
+}
+.header_main{
+    width: 100%;
+    display: flex;
+}
+.location_text{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+}
+.location_text a{
+    color: #ffffff;
+}
+.location_text a:hover{
+    color: #e4e219;
+}
+.padding_left_10{
+    padding-left: 10px;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+    float: right;
+}
+/* header top section end */
+
+/* header section start */
+.header_section {
+    width: 100%;
+    float: left;
+    background-image: url(../images/banner-bg.png);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.bg-light {
+    background-color: transparent!important;
+}
+.navbar {
+    padding: .5rem 0px;
+}
+
+.image_1{
+    width: 100%;
+    float: left;
+}
+
+.logo{
+    width: 50%;
+    float: left;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #191616;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e4e219;
+}
+
+/* header section end */
+
+/* banner section start */
+.banner_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 101px;
+}
+.banner_taital{
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    color: #191616;
+    font-weight: bold;
+}
+.banner_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #191616;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+.btn_main {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+.read_bt{
+    width: 170px;
+    float: left;
+}
+.read_bt a{
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #191616;
+    padding: 8px 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.read_bt a:hover{
+    color: #ffffff;
+    background-color: #e4e219;
+}
+
+.contact_bt{
+    width: 170px;
+    float: left;
+}
+.contact_bt a{
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #191616;
+    padding: 8px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.contact_bt a:hover{
+    color: #ffffff;
+    background-color: #e4e219;
+}
+.contact_bt.active a{
+    background-color: #e4e219;
+}
+
+#main_slider a.carousel-control-next {
+    position: absolute;
+    right: 130px;
+    top: 110%;
+}
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 1105px;
+    top: 110%;
+}
+#main_slider .carousel-control-prev,
+#main_slider .carousel-control-next {
+    width: 55px;
+    height: 55px;
+    background: #2a2a2a;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+}
+#main_slider .carousel-control-prev:hover, 
+#main_slider .carousel-control-next:hover, 
+#main_slider .carousel-control-prev:focus, 
+#main_slider .carousel-control-next:focus {
+    color: #ffffff;
+}
+/* banner section end */
+/* about section start */
+.about_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+}
+.about_taital{
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #191616;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.about_text{
+    width: 100%;
+    padding: 20px; /* Adds spacing inside the element */
+    font-size: 18px; /* Increases font size for better readability */
+    color: #333; /* Darker text for better contrast */
+    line-height: 1.6; /* Makes the text more readable by spacing out lines */
+    text-align: justify;
+    margin: 20px 0; /* Adds vertical margin for spacing */
+    font-family: 'Roboto', sans-serif; /* Modern font family */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+
+}
+.about_section_2{
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.image_1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.image_2 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.image_2:hover img {
+    opacity: 0.8; /* Fade the image a little when hovered */
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+.readmore_bt{
+    width: 170px;
+    margin: 0 auto;
+    text-align: center; 
+}
+.readmore_bt a{
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #191616;
+    padding: 8px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.readmore_bt a:hover{
+    color: #ffffff;
+    background-color: #e4e219;
+}
+
+
+/* about section end */
+/* blog section start */
+
+
+.blog_section{
+    width: 100%;
+    float: left;
+    background-image: url(../images/blog-bg.png);
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+.blog_taital_main{
+    width: 100%;
+    float: left;
+    padding-left: 100px;
+}
+.blog_taital{
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #191616;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.blog_text{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #191616;
+    text-align: center;
+    margin: 0px;
+}
+.blog_section_2{
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+.blog_section_3{
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+.image_4{
+    width: 95%;
+    float: left;
+    background-color: #000;
+    height: auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+.image_5 {
+    width: 100%;                 /* Container takes full width */
+    float: left;                 /* Optional, depending on layout */
+    background-color: transparent; /* Makes background transparent */
+    height: 300px;               /* Set a fixed height for the container */
+    text-align: center;          /* Center the image */
+    padding: 0;                  /* Remove padding to avoid extra space around image */
+    box-sizing: border-box;      /* Ensures padding is included in the box model */
+    position: relative;          /* Ensure positioning works correctly */
+    overflow: hidden;            /* Hides parts of the image that overflow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for zoom effect */
+}
+
+/* Image styles */
+.image_5 img {
+    width: 100%;                 /* Make image width 100% of the container */
+    height: 100%;                /* Make image height 100% of the container */
+    object-fit: cover;           /* Ensures the image fills the container (cropping as needed) */
+    object-position: center;     /* Optionally center the image if cropping occurs */
+    border-bottom-right-radius: 70px; /* Curves the bottom right corner */
+    border-top-left-radius: 70px; /* Curves the top left corner */
+    transition: transform 0.3s ease; /* Smooth transition for zooming on hover */
+}
+
+/* Hover effect on the image */
+.image_5:hover img {
+    transform: scale(1.1);        /* Zoom effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Adds a shadow to the image on hover */
+}
+
+.laptop_text {
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    color: #2a2929;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.ipsum_text {
+    width: 82%;
+    float: left;
+    font-size: 16px;
+    color: #191616;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.read_bt_2{
+    width: 170px;
+    float: left;
+}
+.read_bt_2 a{
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #191616;
+    padding: 8px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.read_bt_2 a:hover{
+    color: #ffffff;
+    background-color: #e4e219;
+}
+.padding_right_0{
+    padding-right: 0px;
+}
+.padding_left_0{
+    padding-left: 0px;
+}
+/* blog section end */
+
+/* repair section start */
+.repair_section{
+    width: 100%;
+    float: left;
+}
+
+.repair_taital{
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #191616;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.repair_text{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #191616;
+    text-align: center;
+    margin: 0px;
+}
+.image_7 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* repair section end */
+
+/* contact section start */
+.contact_section{
+    width: 100%;
+    float: left;
+}
+.contact_taital{
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #1a1919;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact_text{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #252424;
+    text-align: center;
+    margin: 0px;
+}
+.contact_section_2{
+    width: 100%;
+    float: left;
+    padding-top: 90px;
+}
+.mail_section_1 {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.mail_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #4f4e4e;
+    border: 1px solid #8e8e8e;
+    background-color: #ffff;
+    padding: 15px;
+    margin-top: 20px;
+}
+.massage-bt {
+    color: #4f4e4e;
+    width: 100%;
+    height: 110px;
+    font-size: 18px;
+    background-color: #ffff;
+    padding: 40px 15px 0px 15px;
+    border: 1px solid #8e8e8e;
+    height: 110px;
+    margin-top: 20px;
+}
+.send_bt {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.send_bt a {
+    width: 100%;
+    float: left;
+    background-color: #171717;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+.send_bt a:hover {
+    background-color: #e4e219;
+    color: #ffffff;
+}
+
+
+/* contact section end */
+
+/* footer section start */
+
+.footer_section {
+    width: 100%;
+    float: left;
+    background-color: #171717;
+    height: auto;
+    padding: 90px 0px;
+}
+
+
+.footer_location_text{
+    width: 100%;
+}
+.footer_location_text ul{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    text-align: center;
+}
+.footer_location_text li {
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 50px 80px;
+}
+.footer_location_text li a{
+    color: #ffffff;
+}
+.footer_location_text li a:hover{
+    color: #e4e219;
+}
+
+
+
+
+
+.useful_text {
+    width: 100%;
+    font-size: 24px;
+    color: #fcfcfc;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.lorem_text {
+    width: 56%;
+    float: left;
+    font-size: 16px;
+    color: #878585;
+    margin: 0px;
+    padding-top: 10px;
+}
+.footer_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #878585;
+    margin: 0px;
+    padding-top: 10px;
+}
+.social_icon {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+}
+.social_icon ul {
+    margin: 0px;
+    padding: 0px;
+}
+.social_icon li {
+    float: left;
+    padding-right: 15px;
+}
+.footer_menu {
+    width: 100%;
+    float: left;
+}
+.footer_menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer_menu li {
+    padding-top: 5px;
+    font-size: 16px;
+    color: #878585;
+}
+.footer_menu li a {
+    color: #878585;
+}
+.footer_menu li a:hover {
+    color: #e4e219;
+}
+
+
+/* footer section end */
+/* copright section start */
+.copyright_section {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    height: auto;
+}
+.copyright_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #0b0b0c;
+    text-align: center;
+    margin-left: 0px;
+}
+.copyright_text a {
+    color: #0b0b0c;
+}
+.copyright_text a:hover {
+    color: #a24e3d;
+}
+/* copyright section end */
+
+.margin_top{
+    margin-top: 90px;
+}
+.header_section {
+    position: relative; /* Make the header section relative for positioning the logo */
+  }
+  
+  .logo {
+    position: absolute;
+    top: -50px;  /* Adjust this value as per your preference to move the logo up */
+    left: 0;     /* Keep the logo aligned to the left */
+    z-index: 10; /* Ensure the logo is above other content */
+  }
+  
+  .banner_section {
+    margin-top: 100px; /* Adjust the margin-top to ensure the banner isn't hidden behind the logo */
+  }
+  
+  /* Optional: For better mobile responsiveness */
+  @media (max-width: 768px) {
+    .logo-img {
+      width: 150px;  /* Resize logo for smaller screens */
+      height: 150px;
+    }
+  }
+  #more-text {
+    display: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .readmore_bt a {
+    color: #ebeef1;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  /* Style for the Scroll to Top button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none; /* Initially hidden */
+    background-color: #f3f7f8;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #1a1c1a;
+  }
+  
+  .scroll-to-top img {
+    width: 100%;
+    height: 100%;
+  }
+  
